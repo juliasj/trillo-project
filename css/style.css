@@ -59,6 +59,7 @@ body {
   .search__input:focus + .search__button {
     background-color: var(--color-gray-light-3); }
   .search__button {
+    cursor: pointer;
     border: none;
     background-color: var(--color-gray-light-2); }
     .search__button:focus {
