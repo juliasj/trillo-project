@@ -1,5 +1,25 @@
 .hotel-view {
     flex: 1;
+    min-height: calc(100vh - 7rem);
 
-    height: calc(100vh - 7rem);
+    &__detail {
+        display: flex;
+        padding: 4.5rem;
+        background-color: var(--color-gray-light-2);
+        border-bottom: var(--line);
+    }
+
+    &__description {
+        flex: 0 0 60%;
+        margin-right: 4.5rem;
+        padding: 3rem;
+        background-color: var(--color-white);
+        box-shadow: var(--shadow-subtle);   
+    }
+
+    &__user-reviews {
+        flex: 1;
+
+        background-color: lightgoldenrodyellow;
+    }
 }
