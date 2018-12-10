@@ -20,6 +20,8 @@
     &__user-reviews {
         flex: 1;
 
-        background-color: lightgoldenrodyellow;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
