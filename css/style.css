@@ -137,11 +137,17 @@ body {
   @media only screen and (max-width: 56.25em) {
     .cta {
       padding: 2.5rem 0; } }
+  @media only screen and (max-width: 31.25em) {
+    .cta {
+      padding: 2.5rem 3rem; } }
   .cta__book-now {
     font-size: 2rem;
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 2.5rem; }
+    @media only screen and (max-width: 31.25em) {
+      .cta__book-now {
+        font-size: 1.8rem; } }
 
 .gallery {
   display: flex; }
@@ -159,6 +165,10 @@ body {
     letter-spacing: 1px;
     text-transform: uppercase;
     padding: 1.5rem 3rem; }
+    @media only screen and (max-width: 37.5em) {
+      .overview__heading {
+        font-size: 1.8rem;
+        padding: 1.25rem 2rem; } }
   .overview__stars {
     display: flex;
     margin-right: auto; }
@@ -182,13 +192,22 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
+    @media only screen and (max-width: 37.5em) {
+      .overview__rating {
+        padding: 0 1.5rem; } }
   .overview__rating-average {
     font-size: 2.25rem;
     font-weight: 300;
     margin-bottom: -3px; }
+    @media only screen and (max-width: 37.5em) {
+      .overview__rating-average {
+        font-size: 1.8rem; } }
   .overview__rating-count {
     font-size: .8rem;
     text-transform: uppercase; }
+    @media only screen and (max-width: 37.5em) {
+      .overview__rating-count {
+        font-size: .5rem; } }
 
 .recommend {
   font-size: 1.3rem;
@@ -261,6 +280,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center; }
+  @media only screen and (max-width: 31.25em) {
+    .search {
+      order: 1;
+      flex: 0 0 100%;
+      background-color: var(--color-gray-light-2); } }
   .search__input {
     font-family: inherit;
     font-size: inherit;
@@ -339,11 +363,21 @@ body {
       .side-nav__link:link, .side-nav__link:visited {
         justify-content: center;
         padding: 2rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .side-nav__link:link, .side-nav__link:visited {
+        flex-direction: column;
+        padding: 1.5rem .5rem; } }
   .side-nav__icon {
     height: 1.75rem;
     width: 1.75rem;
     margin-right: 2rem;
     fill: currentColor; }
+    @media only screen and (max-width: 37.5em) {
+      .side-nav__icon {
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-right: 0rem;
+        margin-bottom: .5rem; } }
 
 .user-nav {
   align-self: stretch;
@@ -388,6 +422,11 @@ body {
   height: 7rem;
   background-color: var(--color-white);
   border-bottom: var(--line); }
+  @media only screen and (max-width: 31.25em) {
+    .header {
+      flex-wrap: wrap;
+      align-content: space-around;
+      height: 10rem; } }
   .header__logo {
     height: 3.25rem;
     margin-left: 2rem; }
@@ -403,6 +442,9 @@ body {
     @media only screen and (max-width: 56.25em) {
       .hotel-view__detail {
         padding: 3rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .hotel-view__detail {
+        flex-direction: column; } }
   .hotel-view__description {
     flex: 0 0 60%;
     margin-right: 4.5rem;
@@ -413,6 +455,10 @@ body {
       .hotel-view__description {
         margin-right: 3rem;
         padding: 2rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .hotel-view__description {
+        margin-right: 0rem;
+        margin-bottom: 3rem; } }
   .hotel-view__user-reviews {
     flex: 1;
     display: flex;
