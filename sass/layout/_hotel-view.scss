@@ -7,6 +7,10 @@
         padding: 4.5rem;
         background-color: var(--color-gray-light-2);
         border-bottom: var(--line);
+
+        @media only screen and (max-width: $bp-medium) {
+            padding: 3rem;
+        }
     }
 
     &__description {
@@ -14,7 +18,12 @@
         margin-right: 4.5rem;
         padding: 3rem;
         background-color: var(--color-white);
-        box-shadow: var(--shadow-subtle);   
+        box-shadow: var(--shadow-subtle);
+
+        @media only screen and (max-width: $bp-medium) {
+            margin-right: 3rem;
+            padding: 2rem;
+        }
     }
 
     &__user-reviews {
